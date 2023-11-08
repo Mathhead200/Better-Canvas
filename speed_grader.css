@@ -1,0 +1,15 @@
+.better_canvas.buttons {
+	text-align: right;
+}
+
+.better_canvas.buttons > button {
+	margin: 0em 0.5em 1em 0.5em;
+	font-weight: bold;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 0.25em;
+	padding: 0.5em 1.25em;
+}
+.better_canvas .full_marks { background-color: limegreen; }
+.better_canvas .zero { background-color: red; }

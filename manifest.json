@@ -1,0 +1,26 @@
+{
+	"manifest_version": 3,
+
+	"name": "Better Canvas",
+	"description": "Chrome Extension adding features and quality of life improvments to Canvas.",
+	"version": "0.1",
+	"icons": {
+		"16": "logo/better_canvas_logo_16.png",
+		"32": "logo/better_canvas_logo_32.png",
+		"48": "logo/better_canvas_logo_48.png",
+		"128": "logo/better_canvas_logo_128.png"
+	},
+
+	"content_scripts": [
+		{
+			"js": ["speed_grader.js"],
+			"css": ["speed_grader.css"],
+			"matches": [
+				"https://*.instructure.com/courses/*/gradebook/speed_grader?*",
+				"https://*.instructure.com/courses/*/quizzes/*/history?*"
+			],
+			"all_frames": true,
+			"run_at": "document_end"
+		}
+	]
+}

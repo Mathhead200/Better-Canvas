@@ -1,2 +1,2 @@
 # Better-Canvas
- Chrome Extension to add features and quality of life improvments to Canvas.
+ Chrome Extension adding features and quality of life improvments to Canvas.
